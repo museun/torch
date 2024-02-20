@@ -153,11 +153,8 @@ impl App {
         let distance = x.hypot(y).sqrt().max(1.5);
         let blend = lerp(0.0..=0.25, distance);
 
-        let mut cell = Cell::new(c).fg(Self::FG);
-        // if blend < 1.5 {
-        //     cell = cell.attr(Attribute::ITALIC);
-        // }
-
-        cell.bg(Self::BG.blend_flat(Self::SHADOW, blend))
+        Cell::new(c)
+            .fg(Self::FG)
+            .bg(Self::BG.blend_flat(Self::SHADOW, blend))
     }
 }

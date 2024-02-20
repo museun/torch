@@ -126,7 +126,7 @@ checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
 [[package]]
 name = "shuten_core"
 version = "0.1.0"
-source = "git+https://github.com/museun/shuten#5c8220ea18a6b73e2d4f1da700d9527bc2f09256"
+source = "git+https://github.com/museun/shuten#4baf21f9f2453667c011e0745d5b47eaeede8da8"
 dependencies = [
  "crossterm",
  "unicode-segmentation",
