@@ -15,6 +15,4 @@ movement:
 - mouse wheel up
 - mouse wheel down
 
-made with https://github.com/museun/shuten
-
 LICENSE: 0BSD

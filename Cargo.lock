@@ -124,14 +124,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
 
 [[package]]
-name = "shuten_core"
+name = "shuten"
 version = "0.1.0"
-source = "git+https://github.com/museun/shuten#4baf21f9f2453667c011e0745d5b47eaeede8da8"
+source = "git+https://github.com/museun/shuten#69f9b0784ff79770c05e02110612a62a138c26bc"
 dependencies = [
  "crossterm",
- "unicode-segmentation",
- "unicode-width",
+ "shuten_core",
 ]
+
+[[package]]
+name = "shuten_core"
+version = "0.1.0"
+source = "git+https://github.com/museun/shuten#69f9b0784ff79770c05e02110612a62a138c26bc"
 
 [[package]]
 name = "signal-hook"
@@ -173,20 +177,8 @@ checksum = "e6ecd384b10a64542d77071bd64bd7b231f4ed5940fba55e98c3de13824cf3d7"
 name = "torch"
 version = "0.1.0"
 dependencies = [
- "shuten_core",
+ "shuten",
 ]
-
-[[package]]
-name = "unicode-segmentation"
-version = "1.11.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d4c87d22b6e3f4a18d4d40ef354e97c90fcb14dd91d7dc0aa9d8a1172ebf7202"
-
-[[package]]
-name = "unicode-width"
-version = "0.1.11"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e51733f11c9c4f72aa0c160008246859e340b00807569a0da0e7a1079b27ba85"
 
 [[package]]
 name = "wasi"

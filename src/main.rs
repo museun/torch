@@ -1,11 +1,10 @@
 use std::io::Read;
 
-use shuten_core::{
+use shuten::{
     event::{Event, Key, MouseEvent},
     geom::{lerp, Pos2, Rect},
     style::Rgb,
-    terminal::Config,
-    Canvas, Cell, Terminal,
+    Canvas, Cell, Config, Terminal,
 };
 
 fn main() -> std::io::Result<()> {
