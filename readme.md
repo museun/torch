@@ -15,4 +15,7 @@ movement:
 - mouse wheel up
 - mouse wheel down
 
+# DEMO
+<https://asciinema.org/a/qUYqdXC2kVzRt9dAbN7XgM3bg>
+
 LICENSE: 0BSD
