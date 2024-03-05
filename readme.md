@@ -16,6 +16,6 @@ movement:
 - mouse wheel down
 
 # DEMO
-<https://asciinema.org/a/qUYqdXC2kVzRt9dAbN7XgM3bg>
+[![asciicast](https://asciinema.org/a/645350.svg)](https://asciinema.org/a/645350)
 
 LICENSE: 0BSD
